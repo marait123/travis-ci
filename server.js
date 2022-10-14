@@ -5,7 +5,7 @@ let i = 0;
 async function main() {
   while (true) {
     console.log("Containers rule! guys " + i++);
-    await sleep(1000);
+    await sleep(1500);
   }
 }
 
