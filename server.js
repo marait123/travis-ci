@@ -4,8 +4,8 @@ function sleep(ms) {
 let i = 0;
 async function main() {
   while (true) {
-    console.log("Containers rule! guys" + i++);
-    await sleep(5000);
+    console.log("Containers rule! guys " + i++);
+    await sleep(1000);
   }
 }
 
